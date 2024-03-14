@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./assets/fonts/fonts.scss";
+
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.title-font {
+  // font-family: 'Avant garde', sans-serif;
+  font-family: "Misto", sans-serif;
+}
+
+@keyframes rotating {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes color {
+  0% {
+    color: #000;
+  }
+  40% {
+    color: #bbf;
+  }
+  100% {
+    color: #000;
+  }
+}

@@ -1,0 +1,69 @@
+.go-to-project-btn {
+  width: 175px;
+  height: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #575757;
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  overflow: hidden;
+}
+
+.round-text {
+  display: block;
+  animation: rotating 6s infinite linear;
+}
+
+ion-icon {
+  color: #fff;
+}
+
+.arrow-icon {
+  position: absolute;
+  top: 50;
+}
+// @keyframes color{
+//     0% {
+//         color: #000;
+//     }
+//     10% {
+//         color: #002;
+//     }
+//     20% {
+//         color: #113;
+//     }
+//     30% {
+//         color: #223;
+//     }
+//     40% {
+//         color: #224;
+//     }
+//     50% {
+//         color: #334;
+//     }
+//     60% {
+//         color: #335;
+//     }
+//     70% {
+//         color: #445;
+//     }
+//     80% {
+//         color: #556;
+//     }
+//     90% {
+//         color: #aab;
+//     }
+//     100% {
+//         color: #bbf;
+//     }
+// }
+
+// h1{
+//     animation-name: color;
+//     animation-duration: 3s;
+//     animation-iteration-count: infinite;
+//     animation-direction: alternate-reverse;
+// }
